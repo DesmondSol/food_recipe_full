@@ -22,6 +22,11 @@ You can start the service as follows:
 ```
 docker-compose up
 ```
+Newer
+```
+docker compose up
+
+```
 
 
 ## `hasura`
