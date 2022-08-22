@@ -1,0 +1,101 @@
+table:
+  name: recipe
+  schema: public
+object_relationships:
+  - name: user_account
+    using:
+      foreign_key_constraint_on: owner_user_id
+array_relationships:
+  - name: comments
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: comments
+          schema: public
+  - name: favorites
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: favorite
+          schema: public
+  - name: ingredients
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: ingredients
+          schema: public
+  - name: likes
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: likes
+          schema: public
+  - name: ratings
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: ratings
+          schema: public
+  - name: recipe_images
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: recipe_images
+          schema: public
+  - name: recipe_steps
+    using:
+      foreign_key_constraint_on:
+        column: recipe_id
+        table:
+          name: recipe_steps
+          schema: public
+insert_permissions:
+  - role: user
+    permission:
+      check: {}
+      set:
+        owner_user_id: x-hasura-user-id
+      columns:
+        - id
+        - owner_user_id
+        - preparation_time
+        - description
+        - title
+        - created_at
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - id
+        - owner_user_id
+        - preparation_time
+        - description
+        - title
+        - created_at
+      filter: {}
+      allow_aggregations: true
+update_permissions:
+  - role: user
+    permission:
+      columns:
+        - id
+        - owner_user_id
+        - preparation_time
+        - description
+        - title
+        - created_at
+      filter: {}
+      check: {}
+      set:
+        owner_user_id: x-hasura-user-id
+delete_permissions:
+  - role: user
+    permission:
+      backend_only: false
+      filter: {}

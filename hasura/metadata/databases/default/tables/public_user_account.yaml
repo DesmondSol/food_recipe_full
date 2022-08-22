@@ -1,0 +1,84 @@
+table:
+  name: user_account
+  schema: public
+array_relationships:
+  - name: comments
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: comments
+          schema: public
+  - name: favorites
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: favorite
+          schema: public
+  - name: likes
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: likes
+          schema: public
+  - name: ratings
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: ratings
+          schema: public
+  - name: recipes
+    using:
+      foreign_key_constraint_on:
+        column: owner_user_id
+        table:
+          name: recipe
+          schema: public
+insert_permissions:
+  - role: user
+    permission:
+      check: {}
+      columns:
+        - phone
+        - id
+        - email
+        - name
+        - password
+        - created_at
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - phone
+        - id
+        - email
+        - name
+        - password
+        - created_at
+      filter:
+        id:
+          _eq: X-Hasura-User-Id
+update_permissions:
+  - role: user
+    permission:
+      columns:
+        - phone
+        - id
+        - email
+        - name
+        - password
+        - created_at
+      filter:
+        id:
+          _eq: X-Hasura-User-Id
+      check: null
+delete_permissions:
+  - role: user
+    permission:
+      backend_only: false
+      filter:
+        id:
+          _eq: X-Hasura-User-Id
