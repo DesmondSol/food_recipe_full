@@ -12,29 +12,26 @@
 </script>
 
 <template>
-  <div mt-52>
+  <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
     <div>
-      <label text-5xl>Meaza</label>
+      <div mt-52>
+        <div>
+          <label text-5xl>Meaza</label>
+        </div>
+        <div>
+          <label>Food Recipes</label>
+        </div>
+        <a btn m-3 text-sm @click="$router.push('/auth/login')">
+          Login
+        </a>
+      </div>
+      <div>
+        <a btn m-3 text-sm @click="$router.push('/auth/signup')">
+          Signup
+        </a>
+      </div>
     </div>
-    <div>
-      <label >Food Recipes</label>
-    </div>
-    <a
-      btn m-3 text-sm
-
-      @click="$router.push('/auth/login')"
-    >
-      Login
-    </a>
-  </div><div>
-    <a
-      btn m-3 text-sm
-      @click="$router.push('/auth/signup')"
-    >
-      Signup
-    </a>
   </div>
-
   <!-- <div>
     <div text-4xl>
       <div i-carbon-campsite inline-block />
