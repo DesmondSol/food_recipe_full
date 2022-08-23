@@ -257,7 +257,6 @@
     </div>
   </div>
   <div class="">
-
     <button
       class="text-gray-800 px-4 w-auto h-12 bg-gray-100 rounded-full hover:bg-gray-200 text-gray-800  active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
       <!-- <svg viewBox="0 0 20 20" enable-background="new 0 0 20 20" class="w-6 h-6 inline-block mr-1">
