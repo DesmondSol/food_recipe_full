@@ -60,16 +60,16 @@ export default {
             md:mt-0
           ">
                 <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-                  Home
+                  <a @click="$router.push('/home/home')">Home</a>
                 </li>
                 <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-                  About
+                  <a @click="$router.push('/home/favorites')">favorites</a>
                 </li>
                 <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-                  Blogs
+                  <a @click="$router.push('/form/add_recipe')">New</a>
                 </li>
                 <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-                  Contact Us
+                  <a @click="$router.push('/')">Log Out</a>
                 </li>
               </ul>
             </nav>
@@ -81,7 +81,7 @@ export default {
         <div class="justify-between max-w-screen-xl py-4 mx-auto text-center md:flex">
           <div class="flex justify-center md:order-2">
             <button
-              class="text-gray-800 px-4 w-auto h-9 bg-gray-100  dark:text-gray-100 dark:bg-gray-600 rounded-lg hover:bg-gray-200 text-gray-800  active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
+              class=" px-4 w-auto h-9 bg-gray-100  dark:text-gray-100 dark:bg-gray-600 rounded-lg hover:bg-gray-200 text-gray-800  active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
               follow
               sol
             </button>
