@@ -12,3 +12,4 @@ const { t } = useI18n()
 meta:
   layout: 404
 </route>
+

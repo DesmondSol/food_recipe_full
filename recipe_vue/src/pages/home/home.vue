@@ -16,25 +16,19 @@ export default {
 
 <template>
   <div
-    class="flex gap-9 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-1 min-h-screen py-32 px-10 "
-  >
+    class="flex gap-9 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-1 min-h-screen py-32 px-10 ">
     <div class="max-w-sm md:w-2/3 shadow p-5 rounded-lg border-2">
       <div class="relative">
         <div class="absolute flex items-center ml-2 h-full">
-          <svg
-            class="w-4 h-4 fill-current text-primary-gray-dark" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="w-4 h-4 fill-current text-primary-gray-dark" viewBox="0 0 16 16" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <path
-              d="M15.8898 15.0493L11.8588 11.0182C11.7869 10.9463 11.6932 10.9088 11.5932 10.9088H11.2713C12.3431 9.74952 12.9994 8.20272 12.9994 6.49968C12.9994 2.90923 10.0901 0 6.49968 0C2.90923 0 0 2.90923 0 6.49968C0 10.0901 2.90923 12.9994 6.49968 12.9994C8.20272 12.9994 9.74952 12.3431 10.9088 11.2744V11.5932C10.9088 11.6932 10.9495 11.7869 11.0182 11.8588L15.0493 15.8898C15.1961 16.0367 15.4336 16.0367 15.5805 15.8898L15.8898 15.5805C16.0367 15.4336 16.0367 15.1961 15.8898 15.0493ZM6.49968 11.9994C3.45921 11.9994 0.999951 9.54016 0.999951 6.49968C0.999951 3.45921 3.45921 0.999951 6.49968 0.999951C9.54016 0.999951 11.9994 3.45921 11.9994 6.49968C11.9994 9.54016 9.54016 11.9994 6.49968 11.9994Z"
-            />
+              d="M15.8898 15.0493L11.8588 11.0182C11.7869 10.9463 11.6932 10.9088 11.5932 10.9088H11.2713C12.3431 9.74952 12.9994 8.20272 12.9994 6.49968C12.9994 2.90923 10.0901 0 6.49968 0C2.90923 0 0 2.90923 0 6.49968C0 10.0901 2.90923 12.9994 6.49968 12.9994C8.20272 12.9994 9.74952 12.3431 10.9088 11.2744V11.5932C10.9088 11.6932 10.9495 11.7869 11.0182 11.8588L15.0493 15.8898C15.1961 16.0367 15.4336 16.0367 15.5805 15.8898L15.8898 15.5805C16.0367 15.4336 16.0367 15.1961 15.8898 15.0493ZM6.49968 11.9994C3.45921 11.9994 0.999951 9.54016 0.999951 6.49968C0.999951 3.45921 3.45921 0.999951 6.49968 0.999951C9.54016 0.999951 11.9994 3.45921 11.9994 6.49968C11.9994 9.54016 9.54016 11.9994 6.49968 11.9994Z" />
           </svg>
         </div>
 
-        <input
-          type="text" placeholder="Search by listing, location, bedroom number..."
-          class="px-8 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-        >
+        <input type="text" placeholder="Search by listing, location, bedroom number..."
+          class="px-8 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
       </div>
 
       <div class="flex items-center justify-between mt-4">
@@ -50,8 +44,7 @@ export default {
       <div>
         <div class="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-1 gap-4 mt-4">
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               All Type
             </option>
@@ -64,8 +57,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Furnish Type
             </option>
@@ -81,8 +73,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Any Price
             </option>
@@ -101,8 +92,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Floor Area
             </option>
@@ -127,8 +117,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Bedrooms
             </option>
@@ -150,8 +139,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Bathrooms
             </option>
@@ -173,8 +161,7 @@ export default {
           </select>
 
           <select
-            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
-          >
+            class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
             <option value="">
               Bathrooms
             </option>
@@ -193,10 +180,8 @@ export default {
     </div>
 
     <div class="grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-10 xl-grid-cols-4 gap-y-10 gap-x-6 ">
-      <div
-        class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
-        @click="toggleModal()"
-      >
+      <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
+        @click="toggleModal()">
         <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
@@ -209,40 +194,30 @@ export default {
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </span>
             <span>22</span>
           </div>
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+              <svg xmlns="http://www.w3.org/2000/svg"
                 class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer"
-                viewBox="0 0 20 20" fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
+                viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
                   d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                  clip-rule="evenodd"
-                />
+                  clip-rule="evenodd" />
               </svg>
             </span>
             <span>20</span>
           </div>
         </div>
       </div>
-      <div
-        class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
-        @click="toggleModal()"
-      >
+      <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
+        @click="toggleModal()">
         <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
@@ -255,40 +230,30 @@ export default {
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </span>
             <span>22</span>
           </div>
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+              <svg xmlns="http://www.w3.org/2000/svg"
                 class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer"
-                viewBox="0 0 20 20" fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
+                viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
                   d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                  clip-rule="evenodd"
-                />
+                  clip-rule="evenodd" />
               </svg>
             </span>
             <span>20</span>
           </div>
         </div>
       </div>
-      <div
-        class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
-        @click="toggleModal()"
-      >
+      <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
+        @click="toggleModal()">
         <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
@@ -301,40 +266,30 @@ export default {
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </span>
             <span>22</span>
           </div>
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+              <svg xmlns="http://www.w3.org/2000/svg"
                 class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer"
-                viewBox="0 0 20 20" fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
+                viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
                   d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                  clip-rule="evenodd"
-                />
+                  clip-rule="evenodd" />
               </svg>
             </span>
             <span>20</span>
           </div>
         </div>
       </div>
-      <div
-        class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
-        @click="toggleModal()"
-      >
+      <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
+        @click="toggleModal()">
         <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
@@ -347,40 +302,30 @@ export default {
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </span>
             <span>22</span>
           </div>
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+              <svg xmlns="http://www.w3.org/2000/svg"
                 class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer"
-                viewBox="0 0 20 20" fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
+                viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
                   d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                  clip-rule="evenodd"
-                />
+                  clip-rule="evenodd" />
               </svg>
             </span>
             <span>20</span>
           </div>
         </div>
       </div>
-      <div
-        class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
-        @click="toggleModal()"
-      >
+      <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
+        @click="toggleModal()">
         <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
@@ -393,30 +338,22 @@ export default {
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </span>
             <span>22</span>
           </div>
           <div class="flex space-x-1 items-center">
             <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+              <svg xmlns="http://www.w3.org/2000/svg"
                 class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer"
-                viewBox="0 0 20 20" fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
+                viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
                   d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                  clip-rule="evenodd"
-                />
+                  clip-rule="evenodd" />
               </svg>
             </span>
             <span>20</span>
@@ -426,9 +363,8 @@ export default {
     </div>
   </div>
   <div class="">
-    <button
-      class=" px-4 w-auto h-12 bg-gray-100 rounded-full hover:bg-gray-200 text-gray-800  active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none"
-    >
+    <button @click="$router.push('/form/add_recipe')"
+      class=" px-4 w-auto h-12 bg-gray-100 rounded-full hover:bg-gray-200 text-gray-800  active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
       <!-- <svg viewBox="0 0 20 20" enable-background="new 0 0 20 20" class="w-6 h-6 inline-block mr-1">
         <path
           fill="#FFFFFF" d="M16.399,7.643V10.4c0,2.236-1.643,4.629-5.399,4.959V18h2.6c0.22,0,0.4,0.18,0.4,0.4v1.2
@@ -442,10 +378,8 @@ export default {
     </button>
   </div>
 
-  <div
-    v-if="showModal"
-    class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex"
-  >
+  <div v-if="showModal"
+    class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
     <div class="relative w-auto my-6 mx-auto max-w-6xl">
       <!-- content -->
       <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -456,8 +390,7 @@ export default {
           </h3>
           <button
             class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-            @click="toggleModal()"
-          >
+            @click="toggleModal()">
             <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
               ×
             </span>
@@ -477,14 +410,12 @@ export default {
         <div class="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
           <button
             class="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-            type="button" @click="toggleModal()"
-          >
+            type="button" @click="toggleModal()">
             Close
           </button>
           <button
             class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-            type="button" @click="toggleModal()"
-          >
+            type="button" @click="toggleModal()">
             Save Changes
           </button>
         </div>
