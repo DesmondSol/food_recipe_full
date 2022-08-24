@@ -182,7 +182,7 @@ export default {
     <div class="grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-10 xl-grid-cols-4 gap-y-10 gap-x-6 ">
       <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
         @click="toggleModal()">
-        <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
+        <img src="https://www.pexels.com/@rajesh-tp-749235/" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
             Abalone with chilli
@@ -220,7 +220,7 @@ export default {
       </div>
       <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
         @click="toggleModal()">
-        <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-t-lg w-full">
+        <img src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
             This is Amazing for people to visit.
