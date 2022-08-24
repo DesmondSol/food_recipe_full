@@ -61,16 +61,16 @@ export default {
             md:mt-0
           ">
               <li class="text-sm font-bold text-gray-800 dark:text-gray-200 hover:text-blue-400">
-                Home
+                <a href="/">Home</a>
               </li>
-              <li class="text-sm font-bold text-gray-800  dark:text-gray-200 hover:text-blue-400">
-                About
+              <li class=" text-sm font-bold text-gray-800 dark:text-gray-200 hover:text-blue-400">
+                <a href="/home/home">Explore</a>
               </li>
-              <li class="text-sm font-bold text-gray-800  dark:text-gray-200 hover:text-blue-400">
-                Blogs
+              <li class="text-sm font-bold text-gray-800  dark:text-gray-200 hover:text-blue-400 ">
+                <a href="/about/">About</a>
               </li>
-              <li class="text-sm font-bold text-gray-800  dark:text-gray-200 hover:text-blue-400">
-                Contact Us
+              <li class=" text-sm font-bold text-gray-800 dark:text-gray-200 hover:text-blue-400">
+                Contact Me
               </li>
             </ul>
           </nav>

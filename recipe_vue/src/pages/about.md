@@ -2,20 +2,19 @@
 title: About
 ---
 
-<div class="text-center">
+<div class="text-center pt-29">
   <!-- You can use Vue components inside markdown -->
   <div i-carbon-dicom-overlay class="text-4xl -mb-6 m-auto" />
   <h3>About</h3>
 </div>
 
-[Vitesse](https://github.com/antfu/vitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@antfu](https://github.com/antfu) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **UnoCSS** for styling and icons.
+[MEAZA](https://github.com/desmondsol/FOOD_RECIPE_FULL) is a [Vite](https://github.com/vitejs/vite) project on food recepes made by [@Solomon T](https://github.com/desmondsol) for vue and hasura backend. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **tailwindCSS**,**Unocss** for styling and icons.
 
 ```js
-// syntax highlighting example
-function vitesse() {
-  const foo = 'bar'
+function Meaza() {
+  const foo = 'Meaza'
   console.log(foo)
 }
 ```
 
-Check out the [GitHub repo](https://github.com/antfu/vitesse) for more details.
+Check out the [GitHub repo](https://github.com/desmondsol/) for more details.

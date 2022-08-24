@@ -18,7 +18,7 @@
         <svg
           class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white  dark:text-zinc-900 transform translate-x-1/2"
           fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <polygon points="0,1.5 100,1.5 50,101 0,101" />
+          <polygon points="30,1.5 100,1.5 50,101 0,101" />
         </svg>
 
         <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
