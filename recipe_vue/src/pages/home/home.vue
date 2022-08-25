@@ -190,8 +190,51 @@ export default {
           <p class="text-gray-700 my-2 text-left">
 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis.
-
           </p>
+
+          <ul class="flex justify-center">
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                </path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                </path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                </path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                </path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500"
+                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                </path>
+              </svg>
+            </li>
+          </ul>
+
         </div>
         <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-8 pb-8">
           <div class="flex space-x-1 items-center">
@@ -220,10 +263,11 @@ export default {
       </div>
       <div class="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300"
         @click="toggleModal()">
-        <img src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="rounded-t-lg w-full">
+        <img src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=600"
+          object-contain alt="" class="rounded-t-lg w-full">
         <div class="p-6">
           <h1 class="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900 ">
-            This is Amazing for people to visit.
+            This is Amazing fors people to visit.
           </h1>
           <p class="text-gray-700 my-2 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis.
@@ -389,7 +433,7 @@ export default {
         <!-- header -->
         <div class="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
           <h3 class="text-3xl font-semibold">
-            Modal Title
+            Food Title
           </h3>
           <button
             class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -400,14 +444,19 @@ export default {
           </button>
         </div>
         <!-- body -->
-        <div class="relative p-6 flex-auto">
-          <p class="my-4 text-slate-500 text-lg leading-relaxed">
-            I always felt like I could do anything. That’s the main
-            thing people are controlled by! Thoughts- their perception
-            of themselves! They're slowed down by their perception of
-            themselves. If you're taught you can’t do anything, you
-            won’t do anything. I was taught I could do everything.
-          </p>
+        <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
+          <div class="flex gap-9 py-5 px-10 ">
+            <img src="https://images.unsplash.com/photo-1627751476653-e954179b174a" alt="" class="rounded-lg w-full">
+          </div>
+          <div class="grow relative p-6 flex-auto">
+            <p class="my-4 text-slate-500 text-lg leading-relaxed">
+              Details: I always felt like I could do anything. That’s the main
+              thing people are controlled by! Thoughts- their perception
+              of themselves! They're slowed down by their perception of
+              themselves. If you're taught you can’t do anything, you
+              won’t do anything. I was taught I could do everything.
+            </p>
+          </div>
         </div>
         <!-- footer -->
         <div class="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
