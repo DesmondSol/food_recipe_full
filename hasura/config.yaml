@@ -1,6 +1,8 @@
 version: 3
 endpoint: http://localhost:8080
 metadata_directory: metadata
+admin_secret: qgzThy8KIbdjt88NCcsm8660gbRqUVLPwOIeIg553NkSIyLZ6DON51mR7HkiLbTO
+PG_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
 actions:
   kind: synchronous
   handler_webhook_baseurl: http://localhost:3000

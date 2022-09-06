@@ -40,7 +40,7 @@ services:
       # hasura enable offline consule
       HASURA_GRAPHQL_CONSOLE_ASSETS_DIR: /srv/console-assets
       ## uncomment next line to set an admin secret
-      HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
+      HASURA_GRAPHQL_ADMIN_SECRET: qgzThy8KIbdjt88NCcsm8660gbRqUVLPwOIeIg553NkSIyLZ6DON51mR7HkiLbTO
 volumes:
   db_data:
 
