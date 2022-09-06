@@ -1,0 +1,13 @@
+type Mutation {
+  MyMutation(
+    name: String!
+    phone: bigint!
+    email: String!
+    password: String!
+  ): MyMutationOutput
+}
+
+type MyMutationOutput {
+  id: Int!
+}
+

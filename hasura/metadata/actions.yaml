@@ -1,6 +1,15 @@
-actions: []
+actions:
+  - name: MyMutation
+    definition:
+      kind: synchronous
+      handler: http://localhost:3000
+      headers:
+        - value: qgzThy8KIbdjt88NCcsm8660gbRqUVLPwOIeIg553NkSIyLZ6DON51mR7HkiLbTO
+          name: HASURA_GRAPHQL_ADMIN_SECRET
+    comment: signup validation for hashing
 custom_types:
   enums: []
   input_objects: []
-  objects: []
+  objects:
+    - name: MyMutationOutput
   scalars: []

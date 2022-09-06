@@ -1,6 +1,6 @@
 table:
-  name: ingredients
   schema: public
+  name: ingredients
 object_relationships:
   - name: recipe
     using:
@@ -14,6 +14,14 @@ insert_permissions:
         - recipe_id
         - ingridients
 select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+        - id
+        - recipe_id
+        - ingridients
+      filter: {}
+      allow_aggregations: true
   - role: user
     permission:
       columns:

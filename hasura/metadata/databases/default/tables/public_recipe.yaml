@@ -1,6 +1,6 @@
 table:
-  name: recipe
   schema: public
+  name: recipe
 object_relationships:
   - name: user_account
     using:
@@ -11,50 +11,50 @@ array_relationships:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: comments
           schema: public
+          name: comments
   - name: favorites
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: favorite
           schema: public
+          name: favorite
   - name: ingredients
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: ingredients
           schema: public
+          name: ingredients
   - name: likes
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: likes
           schema: public
+          name: likes
   - name: ratings
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: ratings
           schema: public
+          name: ratings
   - name: recipe_images
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: recipe_images
           schema: public
+          name: recipe_images
   - name: recipe_steps
     using:
       foreign_key_constraint_on:
         column: recipe_id
         table:
-          name: recipe_steps
           schema: public
+          name: recipe_steps
 insert_permissions:
   - role: user
     permission:
@@ -69,6 +69,17 @@ insert_permissions:
         - title
         - created_at
 select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+        - id
+        - created_at
+        - title
+        - description
+        - preparation_time
+        - owner_user_id
+      filter: {}
+      allow_aggregations: true
   - role: user
     permission:
       columns:

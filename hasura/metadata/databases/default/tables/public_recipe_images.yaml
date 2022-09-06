@@ -1,6 +1,6 @@
 table:
-  name: recipe_images
   schema: public
+  name: recipe_images
 object_relationships:
   - name: recipe
     using:
@@ -14,6 +14,13 @@ insert_permissions:
         - recipe_id
         - image
 select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+        - id
+        - recipe_id
+        - image
+      filter: {}
   - role: user
     permission:
       columns:

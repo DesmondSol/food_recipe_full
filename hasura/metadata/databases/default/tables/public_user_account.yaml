@@ -1,42 +1,42 @@
 table:
-  name: user_account
   schema: public
+  name: user_account
 array_relationships:
   - name: comments
     using:
       foreign_key_constraint_on:
         column: user_id
         table:
-          name: comments
           schema: public
+          name: comments
   - name: favorites
     using:
       foreign_key_constraint_on:
         column: user_id
         table:
-          name: favorite
           schema: public
+          name: favorite
   - name: likes
     using:
       foreign_key_constraint_on:
         column: user_id
         table:
-          name: likes
           schema: public
+          name: likes
   - name: ratings
     using:
       foreign_key_constraint_on:
         column: user_id
         table:
-          name: ratings
           schema: public
+          name: ratings
   - name: recipes
     using:
       foreign_key_constraint_on:
         column: owner_user_id
         table:
-          name: recipe
           schema: public
+          name: recipe
 insert_permissions:
   - role: user
     permission:

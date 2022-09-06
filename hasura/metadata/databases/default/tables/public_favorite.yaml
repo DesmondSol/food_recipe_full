@@ -1,6 +1,6 @@
 table:
-  name: favorite
   schema: public
+  name: favorite
 object_relationships:
   - name: recipe
     using:

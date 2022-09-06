@@ -1,6 +1,6 @@
 table:
-  name: ratings
   schema: public
+  name: ratings
 object_relationships:
   - name: recipe
     using:
@@ -20,6 +20,15 @@ insert_permissions:
         - user_id
         - rating
 select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+        - id
+        - recipe_id
+        - user_id
+        - rating
+      filter: {}
+      allow_aggregations: true
   - role: user
     permission:
       columns:
